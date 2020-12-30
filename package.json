@@ -1,0 +1,27 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "- [] Use factories or constructors/classes to generate new 'todo'\r - [] Each 'todo' should have title, desctiption, dueDate, priotity, category\r - [] There should be a list of todos or projects category\r - [] User should be able to create new 'todo' and choose where it goes to\r - [] Seperate app logic (creating todos, setting todos as complete, editing todos) to seperate modules\r - [] View all projects\r - [] View all todos in each project category or todo list\r - [] Expand a single todo to see/edit its details\r - [] Delete a Todo\r - [] Use local storage in order to store a data \r - [] Use webpack and npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matejkrenek/todo-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matejkrenek/todo-list/issues"
+  },
+  "homepage": "https://github.com/matejkrenek/todo-list#readme",
+  "devDependencies": {
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0"
+  },
+  "dependencies": {
+    "firebase": "^8.2.1"
+  }
+}

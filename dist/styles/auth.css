@@ -1,0 +1,49 @@
+.authPage{
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .authPage h1{
+        margin-bottom: 32px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .authForm{
+        position: relative;
+        width: 500px;
+    }
+
+    .inputField input{
+        width: 100%;
+        margin-bottom: var(--padding-low);
+        padding: var(--padding-normal) var(--padding-medium);
+        border: 1px solid #ffffff;
+        font-weight: var(--medium-font-weight);
+        font-family: inherit;
+        outline: none;
+        border-radius: 6px;
+        color: var(--black-color);
+    }
+
+    input:focus{
+        border: 1px solid rgba(35, 35, 35, 0.2);
+    }
+
+    .authForm p {
+        font-weight: var(--medium-font-weight);
+        text-align: right;
+        font-size: var(--label-text-size);
+        margin-bottom: var(--padding-medium);
+    }
+
+    .authForm .btn{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+        
