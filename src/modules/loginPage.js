@@ -9,10 +9,10 @@ const loginPage = () => {
         <h1>Login to your Account</h1>
         <form class="authForm">
             <div class="inputField">
-                <input type="email" name="email" placeholder="Email Address" />
+                <input type="email" name="email" id="email" placeholder="Email Address" required/>
             </div>
             <div class="inputField">
-                <input type="password" name="passowrd" placeholder="Password" />
+                <input type="password" name="passowrd" id="password" placeholder="Password" required/>
             </div>
             <p>I don't have an account <span data-ref="signupPage" class="redirect">Signup</span></p>
             <button class="btn">Login</button>
